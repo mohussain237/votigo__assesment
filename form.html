@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From</title>
+</head>
+
+<body>
+    <div class="upperhead">
+        <h2 class="upperhead__text"> <b> March 27, 2023 </b></h2>
+    </div>
+    <div class="container">
+        <div class="title">
+            <h2> Enter for your chance to win!</h2>
+        </div>
+
+        <div class="form">
+
+            <div class="input_field">
+                <lable class="Lable" for="">First Name<span id="mandetory">*</span> </lable>
+                <input type="text" id="firstName" class="firstName" required>
+            </div>
+
+            <div class="input_field">
+                <lable class="Lable" for="">Last Name<span id="mandetory">*</span> </lable>
+                <input type="text" id="lastName" class="lastName" required>
+            </div>
+
+            <div class="input_field">
+                <lable class="Lable" for="">Email <span id="mandetory">*</span> </lable>
+                <input type="email" id="email" class="email" required>
+            </div>
+
+            <div class="input_field">
+                <lable class="Lable" for="Email">Confirm your Email<span id="mandetory">*</span> </lable>
+                <input type="email" id="c__email" class="email" required>
+            </div>
+
+            <div class="input_field">
+                <lable class="Lable" for="">Address 1<span id="mandetory">*</span> </lable>
+                <input type="text" id="Address__one" class="Address" required>
+            </div>
+
+            <div class="input_field">
+                <lable class="Lable" for="">Address 2<span id="mandetory">*</span> </lable>
+                <input type="text" id="Address__two" class="Address" required>
+            </div>
+
+            <div class="input_field">
+                <lable class="Lable" for="">City<span id="mandetory">*</span> </lable>
+                <input type="text" id="city" class="city" required>
+            </div>
+
+            <div class="input_field">
+                <lable class="Lable" for="">State/ Province<span id="mandetory">*</span> </lable>
+                <select id="state" >
+                    <option value="" disabled selected>Select State</option>
+                    <option value="karnataka">Karnataka</option>
+                    <option value="telngana">Telngana</option>
+                    <option value="maharashtra">Maharashtra</option>
+                    <option value="tamilNadu">Tamil Nadu</option>
+                    <option value="goa">Goa</option>
+                    <option value="andraPradesh">Andra Pradesh</option>
+                    <option value="odisa">Odisa</option>
+                    <option value="madhya pradesh">Madhya pradesh</option>
+                    <option value="uttar pradesh">Uttar pradesh</option>
+                    <option value="rajesthan">Rajesthan</option>
+                </select>
+            </div>
+
+            <div class="input_field">
+                <lable class="Lable" for="">Zip/ Postal Code<span id="mandetory">*</span> </lable>
+                <input type="text" id="zipCode" class="zipCode" placeholder="Zip" pattern="[0-9]{6}" required>
+            </div>
+
+            <div class="input_field">
+                <lable class="Lable" for="">Phone Number<span id="mandetory">*</span> </lable>
+                <input type="tel" id="phone" class="phone" placeholder="Phone Number" required>
+            </div>
+
+            <div id="policy">
+                <div>
+                    <span><input type="checkbox" required></span>
+                    <span id="mandetory">*</span>
+                    <span>i have read and agreed to the <u>Official Rules</u> and <u>Privacy Policy</u></span>
+
+                </div>
+            </div>
+
+            <div class="input_field" style="margin-top: 50px;">
+                <lable class="Lable" for="">Varification<span id="mandetory">*</span> </lable>
+                <div id="verification">
+                    <span class="checkBox"><input style="margin-top: 7px; width: 22px; height: 22px;"type="checkbox"></span>
+                    <span style="margin-left: 30px">I`m not a robot</span>
+                </div>
+            </div>
+
+            <div class="input_field" style="margin-left: 7%">
+                <lable class="Lable"><span id="mandetory">*</span> required fields </lable>
+            </div>
+
+        </div>
+
+
+
+
+        <button class="submit"> SUBMIT </button>
+
+
+    </div>
+
+</body>
+
+</html>
